@@ -84,7 +84,7 @@ const Texter = () => {
     
     // You can use the actual image path or a data URL
     // Option 1: If using actual image file
-    link.href = '../public/qqqr_code.jpeg'; // Replace with your actual QR code image path
+    link.href = "https://i.magecdn.com/bb53f8/f26bdd_qr_checking"; // Replace with your actual QR code image path
     
     // Option 2: If you want to use the displayed image
     // const imgElement = document.querySelector('.qr-image');
@@ -110,7 +110,7 @@ const Texter = () => {
           <h3 style={styles.qrTitle}>Scan QR Code for Payment</h3>
           <div style={styles.qrContainer}>
             <img 
-              src="../public/qqqr_code.jpeg" // Replace with your actual QR code image path
+              src="https://i.magecdn.com/bb53f8/f26bdd_qr_checking" // Replace with your actual QR code image path
               alt="Payment QR Code"
               style={styles.qrImage}
               className="qr-image" // Added class for potential JavaScript access
