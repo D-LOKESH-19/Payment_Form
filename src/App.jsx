@@ -6,9 +6,9 @@ import FireChecker from "./FireChecker";
 const App = () => {
   return (
     <>
-      <Texter/>
-      <VideoTester/>
-      {/* <FireChecker/> */}
+      {/* <Texter/>
+      <VideoTester/> */}
+      <FireChecker/>
     </>
   );
 };
